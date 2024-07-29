@@ -1,0 +1,117 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eb3e05; /* Light teal background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: #000000; /* White background for form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: #e03c06; /* Teal color for header */
+}
+
+img#header-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  margin: 15px 0 5px;
+  color: #e14a09; /* Teal color for labels */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+select {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #00796b; /* Teal border color */
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="file"] {
+  padding: 3px;
+}
+
+select {
+  cursor: pointer;
+}
+
+button {
+  background-color: #000000; /* Teal background for button */
+  color: #ffffff; /* White text for button */
+  border: none;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #e64c0a; /* Darker teal on hover */
+}
+
+a {
+  text-decoration: none;
+  color: #00796b; /* Teal color for links */
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #00796b; /* Teal color for horizontal rule */
+}
+
+#success-message {
+  font-size: 18px;
+  font-weight: bold;
+}
+#success-message{
+  color: green; 
+  text-align: center;
+  margin-top: 20px;
+}
+/* Custom styles for validation messages */
+input:invalid {
+  border: 2px solid #f23e02;
+}
+
+input:valid {
+  border: 2px solid green;
+}
+
+#success-message {
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jobs</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form id="application-form">
+    <img src="images.png" alt="Job Portal Image" id="header-image">
+    <h1>JOB PORTAL</h1>
+    
+    <div id="name">
+      <h2>NAME: <input type="text" placeholder="name" required></h2>
+    </div>
+    
+    <div id="dob">
+      <h2>DOB: <input id="dob" type="date" required></h2>
+    </div>
+    
+    <div id="mbileno">
+      <h2>MOBILENO: <input type="number" placeholder="mobileno" required></h2>
+    </div>
+    
+    <div id="gmail">
+      <h2>GMAIL: <input type="email" id="gmail" placeholder="example@gmail.com" required pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$" title="Please enter a valid Gmail address"></h2>
+    </div>
+    
+    <div id="education">
+      <h2>Education: 
+        <select id="education" required>
+          <option value="">Select Qualification</option>
+          <option value="Bachelors">Bachelors</option>
+          <option value="Masters">Masters</option>
+          <option value="PhD">PhD</option>
+        </select>
+      </h2>
+    </div>
+    
+    <div id="pass">
+      <h2>Pass %: <input id="pass" type="number" placeholder="%" required></h2>
+    </div>
+    
+    <div id="post">
+      <h2>POST APPLYING: 
+        <select id="pa" required>
+          <option value="">Select POST</option>
+          <option value="HR">HR</option>
+          <option value="MARKETING">MARKETING</option>
+          <option value="FRONT END DEVELOPER">FRONT END DEVELOPER</option>
+        </select>
+      </h2>
+    </div>
+    
+    <div id="skills">
+      <h2>SKILLS: <input id="skill" type="text" placeholder="skills" required></h2>
+    </div>
+    
+    <div id="exp">
+      <h2>EXP: <input type="text" placeholder="experience" required></h2>
+    </div>
+    
+    <div id="success-message">
+      <button type="submit" id="submit-button">Submit Application</button>
+    </div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
