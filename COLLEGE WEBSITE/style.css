@@ -1,0 +1,38 @@
+h1{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+img {
+  float: left;
+  margin-right: 20px;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+}
+section{
+    padding: 20px;
+    width: 18%;
+    height: 400px;
+    background-color: darkviolet;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 6px; /* Adjust as needed */
+    margin-top: 100px; /* Adjust as needed */
+}
+a:link { /* Unvisited links */
+  color: whitesmoke; /* Blue */
+}
+a:visited { /* Visited links */
+  color: whitesmoke; /* Purple */
+}
+a:hover { /* Links when hovered */
+  color: green; /* Orange */
+}
+a:active { /* Links when being clicked */
+  color: #ff0000; /* Red */
+}
